@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./assets/css/app.css" />
+
+    <title>Hangman | Vanilla JavaScript</title>
+  </head>
+  <body>
+    <div class="hint"></div>
+
+    <!-- start game container -->
+    <div class="container">
+      <div class="scoreboard">Your Score is <span>0</span></div>
+
+      <!-- the word -->
+      <div class="hiddenWord"></div>
+
+      <!-- keyboard -->
+      <div class="keyboard"></div>
+
+      
+      <div class="buttons">
+        <button class="nextbutton">NEXT WORD</button>
+       
+      </div>
+    </div>
+    <!-- end game container -->
+
+    <!-- javaScript -->
+    <script type="module" src="./assets/js/keys.js"></script>
+    <script type="module" src="./assets/js/words.js"></script>
+    <script type="module" src="./assets/js/game.js"></script>
+  </body>
+</html>
